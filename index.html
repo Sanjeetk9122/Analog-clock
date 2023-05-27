@@ -72,7 +72,7 @@
       position: absolute;
       background-color:var(--clr);
       height:var(--h);
-      width:8px;
+      width:var(--w);
       border-radius:50%;
     }
     
@@ -82,13 +82,13 @@
 <body>
   <div class="container">
     <div class="clock">
-      <div class="hand" id="hour" style="--clr:red; --h: 65px;"><i></i>
+      <div class="hand" id="hour" style="--clr:red; --h: 65px; --w:4px"><i></i>
       </div>
       
-      <div class="hand" id="min" style="--clr:blue; --h:75px;"><i></i>
+      <div class="hand" id="min" style="--clr:blue; --h:75px; --w:3px"><i></i>
       </div>
       
-      <div class="hand" id="sec" style="--clr:white; --h:85px;"><i></i>
+      <div class="hand" id="sec" style="--clr:white; --h:85px; --w:1.5px"><i></i>
       </div>
       
       <span style="--i: 1"><b>1</b></span>
